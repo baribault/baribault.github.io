@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+    </head>
+    
+    <body>
+	    <nav>
+	        <ul>
+	        <li><a href="/research">RESEARCH</a></li>
+	        <li><a href="/code">CODE</a></li>
+	        <li><a href="/cv">CV</a></li>
+	        <li><a href="/about">ABOUT</a></li>
+	        </ul>
+        </nav>
+        
+        <div class="container">
+        {{ content }}
+		</div><!-- /.container -->
+		
+		<footer>
+    		<p>&copy; b. baribault 2020 &ndash; <i>present</i></p>
+		</footer>
+	</body>
+</html>
