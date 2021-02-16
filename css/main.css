@@ -42,12 +42,12 @@ body a:visited {
   color: #666666;
 }
 body a:hover, a:active {
-  border-radius: 5px;
+  border-radius: 0.25em;
   background: #cccccc;
 }
 /**** FOOTER ****/
 footer {
   border-top: 1px solid #d5d5d5;
   color: #666666;
-  font-size: .5em;
+  font-size: .8em;
 }
