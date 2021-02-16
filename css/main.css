@@ -4,12 +4,13 @@
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 2;
   overflow: hidden;
   background-color: #333;
 }
 nav ul li {
   float: left;
+  padding: 2;
 }
 
 nav ul li a {
@@ -32,13 +33,4 @@ a:hover {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
 }
