@@ -1,2 +1,4 @@
     name: Beth Baribault, PhD
     markdown: kramdown
+    plugins:
+      - jekyll-pdf-embed
