@@ -3,11 +3,12 @@
 }
 /**** NAVIGATION ****/
 nav ul {
+  text-transform: uppercase;
   list-style-type: none;
   margin: 0;
   padding: 2;
   overflow: hidden;
-  background-color: #333;
+  background-color: #cccccc;
 }
 nav ul li {
   float: left;
@@ -24,21 +25,29 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #111;
 }
-#navigation a:link, a:visited {
-    color:black
+nav a:link, a:visited {
+  color:black;
+  text-decoration: none;
 }
 /**** BODY ****/
 body {
-    margin: 60px auto;
-    width: 70%;
+  margin: 60px auto;
+  width: 70%;
 }
-a:hover {
-    text-decoration: underline;
-    background-color: #cccccc;
-}}
+body a:link {
+  color: black;
+  text-decoration: wavy;
+}
+body a:visited {
+  color: #666666;
+}
+body a:hover, a:active {
+  border-radius: 5px;
+  background: #cccccc;
+}
 /**** FOOTER ****/
 footer {
-    color: #666666;
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  border-top: 1px solid #d5d5d5;
+  color: #666666;
+  font-size: .5em;
 }
