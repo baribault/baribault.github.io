@@ -1,6 +1,7 @@
 * {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
+/**** NAVIGATION ****/
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -23,14 +24,21 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #111;
 }
+#navigation a:link, a:visited {
+    color:black
+}
+/**** BODY ****/
 body {
     margin: 60px auto;
     width: 70%;
 }
 a:hover {
     text-decoration: underline;
-}
+    background-color: #cccccc;
+}}
+/**** FOOTER ****/
 footer {
+    color: #666666;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
