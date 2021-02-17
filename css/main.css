@@ -1,6 +1,23 @@
 * {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
+/*** COLORS ***/
+.home{
+  color: #357DE9; /* light blue */
+}
+.research{
+  color: #3f3fde; /* medium blue */
+}
+.code{
+  color: #391bb1; /* dark indigo */
+}
+.cv{
+  color: #be3788; /* medium purple */
+}
+.about{
+  color: #ff1f53; /* bright red */
+}
+
 /**** NAVIGATION ****/
 nav ul {
   text-transform: uppercase;
