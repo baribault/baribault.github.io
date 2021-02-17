@@ -77,9 +77,6 @@ body {
 }
 
 /**** DIV: RESEARCH ****/
-.research h3 {
-  font-family: 'monospace';
-}
 .research a:link {
   color: var(--p1dark);
   text-decoration: none;
@@ -87,7 +84,7 @@ body {
 
 
 /**** DIV: CODE ****/
-.research h3 {
+.code h3 {
   font-family: 'monospace';
 }
 .code a:link {
@@ -103,9 +100,6 @@ body {
 }
 
 /**** DIV: ABOUT ****/
-.about h3 {
-  font-family: 'monospace';
-}
 .about a:link {
   color: var(--p4dark);
   text-decoration: none;
