@@ -27,13 +27,13 @@ nav a {
   color: black;
   border: solid 0.2em white;
 }
-nav > .active1, .active2, .active3, .active4 {
+nav > .current1, .current2, .current3, .current4 {
   border: solid 0.2em black;
 }
-nav > .active1 { background-color: var(--p1); }
-nav > .active2 { background-color: var(--p2); }
-nav > .active3 { background-color: var(--p3); }
-nav > .active4 { background-color: var(--p4); }
+nav > .current1 { background-color: var(--p1); }
+nav > .current2 { background-color: var(--p2); }
+nav > .current3 { background-color: var(--p3); }
+nav > .current4 { background-color: var(--p4); }
 
 nav > .page1:hover { background-color: var(--p1); }
 nav > .page2:hover { background-color: var(--p2); }
