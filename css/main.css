@@ -129,7 +129,7 @@ article.description {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  padding: 1em;
+  padding: 0em 1em;
 }
 /* responsive layout */
 @media (max-width: 600px) {
