@@ -1,7 +1,7 @@
 
 :root {
-  --p0: #cccccc; /* gray */
-  --p4dark: #7f3f52;
+  --p0: #bbbbbb; /* gray */
+  --p0dark: #666666;
   --p1: #7fbdff; /* light blue */
   --p4dark: #0f273f;
   --p2: #7f90ff; /* light indigo */
@@ -17,7 +17,7 @@
 
 img {
     border-style: solid;
-    border-width: 0.3em;
+    border-width: 0.5em;
 }
 
 /*** HEADER ***/
