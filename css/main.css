@@ -1,13 +1,23 @@
 
 :root {
   --p0: #cccccc; /* gray */
+  --p4dark: #7f3f52;
   --p1: #7fbdff; /* light blue */
+  --p4dark: #0f273f;
   --p2: #7f90ff; /* light indigo */
+  --p4dark: #0f163f;
   --p3: #d47fff; /* light purple */
+  --p4dark: #2f0f3f;
   --p4: #ff7fa5; /* light red */
+  --p4dark: #3f0f1e;
 }
 * {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+img {
+    border-style: solid;
+    border-width: 0.3em;
 }
 
 /*** HEADER ***/
@@ -65,11 +75,46 @@ body {
   border-radius: 0.5em;
   background: #cccccc;
 }
-}
 
-/**** DIV: BLURB ****/
+/**** DIV: RESEARCH ****/
 .research h3 {
   font-family: 'monospace';
+}
+.research a:link {
+  color: var(--p1dark);
+  text-decoration: none;
+}
+
+
+/**** DIV: CODE ****/
+.research h3 {
+  font-family: 'monospace';
+}
+.code a:link {
+  color: var(--p2dark);
+  text-decoration: none;
+}
+
+
+/**** DIV: CV ****/
+.cv a:link {
+  color: var(--p3dark);
+  text-decoration: none;
+}
+
+/**** DIV: ABOUT ****/
+.about h3 {
+  font-family: 'monospace';
+}
+.about a:link {
+  color: var(--p4dark);
+  text-decoration: none;
+}
+.about a:hover, .about a:active {
+  border-radius: 0.5em;
+  padding: 0.1em;
+  text-decoration: underline wavy;
+  background: #cccccc;
 }
 
 /*.button {
