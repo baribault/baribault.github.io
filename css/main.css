@@ -52,16 +52,24 @@ body {
   margin: 60px auto;
   width: 70%;
 }
+
+/**** DIV: BLURB ****/
 .blurb a:link {
-  color: black;
+  color: #6666ff;
   text-decoration: wavy;
 }
 .blurb a:visited {
   color: #666666;
 }
-.blurb a:hover, a:active {
+.blurb a:hover, .blurb a:active {
   border-radius: 0.5em;
   background: #cccccc;
+}
+}
+
+/**** DIV: BLURB ****/
+.research h3 {
+  font-family: 'monospace';
 }
 
 /*.button {
