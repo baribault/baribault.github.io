@@ -1,49 +1,38 @@
+
+:root {
+  --p1: #7fbdff; /* light blue */
+  --p2: #7f90ff; /* light indigo */
+  --p3: #d47fff; /* light purple */
+  --p4: #ff7fa5; /* light red */
+}
 * {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
-/*** COLORS ***/
-.home{
-  color: #357DE9; /* light blue */
-}
-.research{
-  color: #3f3fde; /* medium blue */
-}
-.code{
-  color: #391bb1; /* dark indigo */
-}
-.cv{
-  color: #be3788; /* medium purple */
-}
-.about{
-  color: #ff1f53; /* bright red */
-}
 
 /**** NAVIGATION ****/
-nav ul {
-  background-color: #cccccc;
-  list-style-type: none;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-}
-nav ul li {
-  float: left;
-  padding: 2em;
-}
-nav ul li a {
-  color: black;
+nav a {
+  display: inline-block;
   text-align: center;
-  font-weight: bold;
-  padding: 1.25em 1em;
+  text-transform: uppercase;
   text-decoration: none;
+  padding: 0.5em 0.75em;
+  font-size: 1em;
+  color: black;
+  border: solid 0.2em white;
 }
-nav ul li a:hover {
-  background-color: currentcolor;
+nav > .active1, .active2, .active3, .active4 {
+  border: solid 0.2em black;
 }
-nav a:link, a:visited {
-  color:black;
-  text-decoration: none;
-}
+nav > .active1 { background-color: var(--p1); }
+nav > .active2 { background-color: var(--p2); }
+nav > .active3 { background-color: var(--p3); }
+nav > .active4 { background-color: var(--p4); }
+
+nav > .page1:hover { background-color: var(--p1); }
+nav > .page2:hover { background-color: var(--p2); }
+nav > .page3:hover { background-color: var(--p3); }
+nav > .page4:hover { background-color: var(--p4); }
+
 /**** BODY ****/
 body {
   margin: 60px auto;
