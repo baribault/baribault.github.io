@@ -10,23 +10,6 @@
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-/**** BODY ****/
-body {
-  margin: 60px auto;
-  width: 70%;
-}
-.blurb a:link {
-  color: black;
-  text-decoration: wavy;
-}
-body a:visited {
-  color: #666666;
-}
-body a:hover, a:active {
-  border-radius: 0.5em;
-  background: #cccccc;
-}
-
 /*** HEADER ***/
 header a {
   color: black;
@@ -62,6 +45,23 @@ footer {
   border-top: 1px solid #d5d5d5;
   color: #666666;
   font-size: .8em;
+}
+
+/**** BODY ****/
+body {
+  margin: 60px auto;
+  width: 70%;
+}
+.blurb a:link {
+  color: black;
+  text-decoration: wavy;
+}
+.blurb a:visited {
+  color: #666666;
+}
+.blurb a:hover, a:active {
+  border-radius: 0.5em;
+  background: #cccccc;
 }
 
 /*.button {
