@@ -122,7 +122,7 @@ article.fig {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  padding: 0;
+  padding: 1em 0em;
 }
 /* flexbox right */
 article.description {
@@ -138,3 +138,12 @@ article.description {
     flex-direction: column;
   }
 }
+/*
+<section>
+  <article class='fig'>
+  </article>
+  
+  <article class='description'>
+  </article>
+</section>
+*/
