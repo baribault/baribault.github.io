@@ -51,3 +51,36 @@ footer {
   color: #666666;
   font-size: .8em;
 }
+
+/*.button {
+   border-top: 1px solid #ffffff;
+   background: #adadad;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#adadad));
+   background: -webkit-linear-gradient(top, #ffffff, #adadad);
+   background: -moz-linear-gradient(top, #ffffff, #adadad);
+   background: -ms-linear-gradient(top, #ffffff, #adadad);
+   background: -o-linear-gradient(top, #ffffff, #adadad);
+   padding: 4.5px 9px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 14px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #7aabcc;
+   background: #7aabcc;
+   color: #000000;
+   }
+.button:active {
+   border-top-color: #7aabcc;
+   background: #7aabcc;
+   }
+   */
