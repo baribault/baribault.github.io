@@ -32,19 +32,14 @@ nav a {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0.5em 0.75em;
+  padding: 0.75em 1.25em;
   font-size: 1em;
   color: black;
-  border: solid 0.2em white;
-}
-nav > .current1, .current2, .current3, .current4 {
-  border: solid 0.2em black;
 }
 nav > .current1 { background-color: var(--p1); }
 nav > .current2 { background-color: var(--p2); }
 nav > .current3 { background-color: var(--p3); }
 nav > .current4 { background-color: var(--p4); }
-
 nav > .page1:hover { background-color: var(--p1); }
 nav > .page2:hover { background-color: var(--p2); }
 nav > .page3:hover { background-color: var(--p3); }
@@ -109,6 +104,9 @@ body {
   padding: 0.1em;
   text-decoration: underline wavy;
   background: #cccccc;
+}
+.about ul {
+  list-style-type:none;
 }
 
 /*.button {
