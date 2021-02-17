@@ -20,27 +20,25 @@
 
 /**** NAVIGATION ****/
 nav ul {
-  text-transform: uppercase;
-  list-style-type: none;
-  margin: 0;
-  padding: 2;
-  overflow: hidden;
   background-color: #cccccc;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 nav ul li {
   float: left;
-  padding: 2;
+  padding: 2em;
 }
 nav ul li a {
-  display: block;
-  color: white;
+  color: black;
   text-align: center;
   font-weight: bold;
   padding: 1.25em 1em;
   text-decoration: none;
 }
 nav ul li a:hover {
-  background-color: #111;
+  background-color: currentcolor;
 }
 nav a:link, a:visited {
   color:black;
