@@ -18,6 +18,9 @@
 img {
   border-style: solid;
   border-width: 0.5em;
+  width: 12em;
+  height:12em;
+  object-fit: contain;
 }
 
 /*** HEADER ***/
