@@ -36,7 +36,7 @@ nav ul li a {
   color: white;
   text-align: center;
   font-weight: bold;
-  padding: 14px 16px;
+  padding: 1.25em 1em;
   text-decoration: none;
 }
 nav ul li a:hover {
@@ -59,7 +59,7 @@ body a:visited {
   color: #666666;
 }
 body a:hover, a:active {
-  border-radius: 0.25em;
+  border-radius: 0.25em 0.5em;
   background: #cccccc;
 }
 /**** FOOTER ****/
