@@ -27,6 +27,12 @@ body a:hover, a:active {
   background: #cccccc;
 }
 
+/*** HEADER ***/
+header a {
+  color: black;
+  text-decoration: none;
+}
+
 /**** NAVIGATION ****/
 nav a {
   display: inline-block;
