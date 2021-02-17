@@ -1,5 +1,6 @@
 
 :root {
+  --p0: #cccccc; /* gray */
   --p1: #7fbdff; /* light blue */
   --p2: #7f90ff; /* light indigo */
   --p3: #d47fff; /* light purple */
@@ -14,7 +15,7 @@ body {
   margin: 60px auto;
   width: 70%;
 }
-body a:link {
+.blurb a:link {
   color: black;
   text-decoration: wavy;
 }
@@ -22,7 +23,7 @@ body a:visited {
   color: #666666;
 }
 body a:hover, a:active {
-  border-radius: 0.25em 0.5em;
+  border-radius: 0.5em;
   background: #cccccc;
 }
 
